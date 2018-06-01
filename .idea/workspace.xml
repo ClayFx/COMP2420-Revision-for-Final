@@ -2,6 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ded3b408-bcab-43c7-9fd6-6760e9fc0b91" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/.ipynb_checkpoints/sample_questions-checkpoint.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Q2.sql" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/sample_questions.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/sample_questions.ipynb" afterDir="false" />
     </list>
@@ -76,6 +78,14 @@
       <option name="presentableId" value="Default" />
       <updated>1527662480943</updated>
     </task>
+    <task id="LOCAL-00001" summary="Q1">
+      <created>1527757317923</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1527757317923</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -102,5 +112,9 @@
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Q1" />
+    <option name="LAST_COMMIT_MESSAGE" value="Q1" />
   </component>
 </project>
