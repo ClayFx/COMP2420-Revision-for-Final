@@ -13,6 +13,7 @@ where J.city <> S.city and J.city <> P.city and P.city <> S.city;
 
 -- c)
 select * 
-from Suppliers, Parts ,( select Si.s_id, Si.p_id from Supplier_inventory as Si inner join Requests as R on Si.s_id = R.s_id and Si.p_id = R.p_id
-						where Si.quantity < R.quantity ) as A
-where Suppliers.s_id = A.s_id and Parts.p_id = A.p_id;
+from Suppliers, Parts 
+where exists ( select Si.s_id, Si.p_id 
+				from Supplier_inventory as Si inner join Requests as R on Si.s_id = R.s_id and Si.p_id = R.p_id 
+				where Si.quantity < R.quantity ) ;
